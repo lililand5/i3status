@@ -147,7 +147,7 @@ tztime local {
     timezone = "Asia/Kolkata"
 }
 
-tztime Goa {
+tztime Moscow {
     format = " MOSCOW: %H:%M:%S"
     timezone = "Europe/Moscow"
 }
