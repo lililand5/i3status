@@ -17,7 +17,7 @@ order += "memory"
 order += "cpu_usage"
 order += "cpu_temperature 0"
 order += "tztime local"
-order += "tztime Goa"
+order += "tztime Moscow"
 
 # отслеживание процесса openvpn
 # служит как индикатор работы openvpn клиента
