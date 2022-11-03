@@ -17,6 +17,7 @@ order += "memory"
 order += "cpu_usage"
 order += "cpu_temperature 0"
 order += "tztime local"
+order += "tztime Goa"
 
 # отслеживание процесса openvpn
 # служит как индикатор работы openvpn клиента
@@ -140,6 +141,13 @@ cpu_usage {
 }
 
 # вывод даты и времени по заданному формату
+
 tztime local {
-    format = "%A %d %b %H:%M:%S"
+    format = " %d %b  GOA: %H:%M:%S "
+    timezone = "Asia/Kolkata"
+}
+
+tztime Goa {
+    format = " MOSCOW: %H:%M:%S"
+    timezone = "Europe/Moscow"
 }
