@@ -18,6 +18,8 @@ order += "cpu_usage"
 order += "cpu_temperature 0"
 order += "tztime local"
 order += "tztime Moscow"
+#order += "run_watch keyboard_layout"
+#order += "tztime custom_uptime"
 
 # отслеживание процесса openvpn
 # служит как индикатор работы openvpn клиента
@@ -143,11 +145,17 @@ cpu_usage {
 # вывод даты и времени по заданному формату
 
 tztime local {
-    format = " %A %d %b  GOA: %H:%M:%S "
-    timezone = "Asia/Kolkata"
+    format = " %A %d %b  Tbilisi: %H:%M:%S "
+    timezone = "Asia/Tbilisi"
 }
 
 tztime Moscow {
     format = " MOSCOW: %H:%M:%S"
     timezone = "Europe/Moscow"
 }
+
+tztime Yekaterinburg {
+    format = " SURGUT: %H:%M:%S"
+    timezone = "Asia/Yekaterinburg"
+}
+
